@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Passagem de Moisés</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <header>
+        <h1>A Jornada de Moisés</h1>
+    </header>
+
+    <main>
+        <section class="mission-section">
+            <h2>A Missão de Moisés: Libertação e Fé</h2>
+            <p>Teste seus conhecimentos sobre a incrível história de Moisés. Responda às perguntas abaixo!</p>
+        </section>
+
+        <section class="questions-section">
+            <h2>Teste seu Conhecimento</h2>
+            <div class="question-card" id="question1">
+                <h3>Em qual momento das missões de Moisés o Senhor o revelou a sarça ardente?</h3>
+                <div class="options">
+                    <button onclick="checkAnswer('question1', 'No Monte Horebe')">No Monte Horebe</button>
+                    <button onclick="checkAnswer('question1', 'No Egito, antes das pragas')">No Egito, antes das pragas</button>
+                    <button onclick="checkAnswer('question1', 'Após a travessia do Mar Vermelho')">Após a travessia do Mar Vermelho</button>
+                    <button onclick="checkAnswer('question1', 'Durante o êxodo')">Durante o êxodo</button>
+                </div>
+                <div id="feedback1" class="feedback"></div>
+            </div>
+            </section>
+
+        <section class="info-cards-section">
+            <h2>Momentos Chave da Jornada</h2>
+            <div class="cards-container">
+                <div class="info-card">
+                    <h3>O Chamado Divino</h3>
+                    <p>Deus chamou Moisés de uma sarça ardente no Monte Horebe, com a missão de libertar Israel da escravidão no Egito.</p>
+                </div>
+                <div class="info-card">
+                    <h3>As Dez Pragas</h3>
+                    <p>Para convencer Faraó a libertar o povo, Deus enviou dez pragas sobre o Egito, culminando na morte dos primogênitos.</p>
+                </div>
+                <div class="info-card">
+                    <h3>A Travessia do Mar Vermelho</h3>
+                    <p>Deus abriu o Mar Vermelho, permitindo que os israelitas passassem em terra seca, e fechou-o sobre o exército egípcio.</p>
+                </div>
+
+    
+  <div class="question-card" id="question2">
+                <h3>Quantas pragas Deus enviou sobre o Egito?</h3>
+                <div class="options">
+                    <button onclick="checkAnswer('question2', 'Sete')">Sete</button>
+                    <button onclick="checkAnswer('question2', 'Dez')">Dez</button>
+                    <button onclick="checkAnswer('question2', 'Doze')">Doze</button>
+                    <button onclick="checkAnswer('question2', 'Cinco')">Cinco</button>
+                </div>
+                <div id="feedback2" class="feedback"></div>
+    
+            </div>
+             
+           </div>
+        </section>
+    </main> 
+  </body>
+</html>
