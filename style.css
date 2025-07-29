@@ -1,0 +1,196 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('b689093c-96ee-41d9-a9b8-d292d5b23136.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background stays in place */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgba(213, 242, 255, 0.13); /* Slightly adjusted for better readability */
+    color: #FFFFFF;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0; /* Remove default margin from h1 */
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: rgba(228, 245, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(151, 156, 196, 0.7); /* Adjusted alpha for clarity */
+}
+
+.mission-section, .questions-section, .info-cards-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(89, 150, 195, 0.95);
+    box-shadow: 0 2px 10px rgba(3, 21, 172, 0.1);
+}
+
+.mission-section h2, .questions-section h2, .info-cards-section h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.question-card h3 {
+    color: #003E81;
+    margin-top: 0;
+}
+
+.options button {
+    background-color: #2170AE;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #004692;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.feedback.correct {
+    color: green;
+}
+
+.feedback.incorrect {
+    color: #042c68; /* Adjusted for better visibility */
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.info-card {
+    background-color: rgba(127, 192, 246, 0.5); /* Adjusted alpha for better contrast */
+    border: 1px solid #cce5ff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-card h3 {
+    color: #A1CAF7;
+    margin-top: 0;
+}
+    background-color; #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.question-card h3 {
+    color: #1F6EC4;
+    margin-top: 0;
+}
+
+.options button {
+    background-color: #5B90B9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #004692;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.feedback.correct {
+    color: green;
+}
+
+.feedback.incorrect {
+    color: rgba(4,44,104,0.97);
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.info-card {
+    background-color: #7FC0F68E;
+    border: 1px solid #cce5ff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-card h3 {
+    color: #697E95;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(138,50,50);
+    color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+body {
+  background-image: url('b689093c-96ee-41d9-a9b8-d292d5b23136.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
